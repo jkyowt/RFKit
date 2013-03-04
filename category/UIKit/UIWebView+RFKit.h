@@ -1,5 +1,5 @@
 /*!
-    NSURL extension
+    UIWebView extension
     RFKit
 
     Copyright (c) 2012-2013 BB9z
@@ -9,13 +9,10 @@
     http://www.opensource.org/licenses/mit-license.php
  */
 
-#import <Foundation/Foundation.h>
+#import "RFRuntime.h"
 
-@interface NSURL (RFKit)
+@interface UIWebView (RFKit)
 
-/**	Cover query string into NSDictionary
- */
-- (NSDictionary *)queryDictionary;
-
+- (void)clearBackgroundImages;
 
 @end
